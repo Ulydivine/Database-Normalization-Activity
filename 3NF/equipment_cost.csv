@@ -1,0 +1,14 @@
+ProjectID,EquipmentUsed,EquipmentRentalCost
+P001,Crane,5000
+P001,Bulldozer,3000
+P002,Excavator,4000
+P002,Crane,5500
+P003,Mixer,800
+P003,Forklift,1200
+P004,Crane,6000
+P004,Lift,2000
+P005,Bulldozer,3200
+P005,Mixer,1000
+P006,Mixer,900
+P007,Crane,6500
+P007,Excavator,4200

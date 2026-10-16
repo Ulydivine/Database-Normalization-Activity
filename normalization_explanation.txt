@@ -1,0 +1,28 @@
+Member 3 — 3NF and BCNF notes (based on the repository's 2NF files)
+
+3NF changes
+- project.csv previously stored client contact fields and supervisor phone alongside ProjectID. The dependencies are ClientName -> ClientPhone, ClientEmail, ClientCity and SupervisorName -> SupervisorPhone. These are transitive through ProjectID, so the fields were moved to client.csv and supervisor.csv. ProjectID remains the primary key of project.csv; ClientName and SupervisorName are foreign keys to the new lookup tables.
+- project_worker.csv previously stored SupplierCity. SupplierName -> SupplierCity, so SupplierCity was moved to supplier.csv. The primary key remains (ProjectID, WorkerPhone); SupplierName is retained as the supplier assigned to that project-worker pair and references supplier.csv.
+- Other 2NF files are retained because their non-key attributes depend on their full keys or they contain only key attributes. In particular, supplier_phone.csv, worker_skill.csv and worker_certification.csv retain ProjectID at this stage to preserve the 2NF design; the independent multi-valued facts are for the 4NF review.
+
+3NF tables and keys
+- project(ProjectID PK; ClientName FK; SupervisorName FK)
+- client(ClientName PK)
+- supervisor(SupervisorName PK)
+- supplier(SupplierName PK)
+- project_worker(ProjectID, WorkerPhone PK; SupplierName FK)
+- worker(WorkerPhone PK)
+- worker_skill(ProjectID, WorkerPhone, WorkerSkill PK; ProjectID + WorkerPhone FK to project_worker)
+- worker_certification(ProjectID, WorkerPhone, WorkerCertification PK; ProjectID + WorkerPhone FK to project_worker)
+- supplier_phone(ProjectID, SupplierName, SupplierPhone PK)
+- material_cost(ProjectID, MaterialSupplied PK)
+- project_supplier_material(ProjectID, SupplierName, MaterialSupplied PK)
+- equipment_cost(ProjectID, EquipmentUsed PK)
+- project_supplier_equipment(ProjectID, SupplierName, EquipmentUsed PK)
+
+BCNF check
+- In project, ProjectID is the determinant and candidate key. In client, ClientName determines the client contact details and is its candidate key. In supervisor, SupervisorName determines SupervisorPhone and is its candidate key. In supplier, SupplierName determines SupplierCity and is its candidate key.
+- In project_worker, (ProjectID, WorkerPhone) is the key; SupplierName depends on the whole key. In worker_skill and worker_certification, the full three-column key identifies each row; there are no additional non-key attributes. Supplier phone, supplier-material, supplier-equipment, material-cost, and equipment-cost tables have no non-key determinant beyond their stated keys; for material_cost, ProjectID + MaterialSupplied -> MaterialUnitCost; for equipment_cost, ProjectID + EquipmentUsed -> EquipmentRentalCost. Thus the supplied dependencies have candidate-key determinants and the relations satisfy BCNF.
+- Multi-valued dependencies such as a worker having multiple skills/certifications and a supplier having multiple phones are considered in 4NF, not decomposed here.
+
+Assumptions to confirm with the group: names (ClientName, SupervisorName, SupplierName) are unique identifiers in this small dataset. If the group assigned surrogate IDs, substitute those consistently in the CSVs and foreign keys.
