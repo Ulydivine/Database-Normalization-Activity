@@ -1,0 +1,17 @@
+ProjectID,SupplierName,EquipmentUsed,EquipmentRentalCost
+P001,BuildPro Supplies,Crane,5000
+P001,BuildPro Supplies,Bulldozer,3000
+P001,SteelWorks Inc,Crane,5000
+P002,Oceanic Materials,Excavator,4000
+P002,Oceanic Materials,Crane,5500
+P003,BuildPro Supplies,Mixer,800
+P003,BuildPro Supplies,Forklift,1200
+P004,SteelWorks Inc,Crane,6000
+P004,SteelWorks Inc,Lift,2000
+P004,Global Glass Co,Lift,2000
+P005,Pacific Materials,Bulldozer,3200
+P005,Pacific Materials,Mixer,1000
+P006,Southern Concrete,Mixer,900
+P007,SteelWorks Inc,Crane,6500
+P007,SteelWorks Inc,Excavator,4200
+P007,Oceanic Materials,Excavator,4200

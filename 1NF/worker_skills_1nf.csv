@@ -1,0 +1,31 @@
+ProjectID,WorkerName,WorkerPhone,WorkerSkill
+P001,Mike Ross,617-555-3001,Carpentry
+P001,Mike Ross,617-555-3001,Framing
+P001,Rachel Zane,617-555-3002,Electrical
+P001,Rachel Zane,617-555-3002,Wiring
+P001,Harvey Specter,617-555-3003,Project Management
+P001,Harvey Specter,617-555-3003,Planning
+P002,Mike Ross,617-555-3001,Carpentry
+P002,Mike Ross,617-555-3001,Concrete
+P002,Tom Hardy,617-555-3004,Welding
+P002,Tom Hardy,617-555-3004,Steel Fixing
+P003,Rachel Zane,617-555-3002,Electrical
+P003,Rachel Zane,617-555-3002,Inspection
+P003,Tom Hardy,617-555-3004,Welding
+P003,Tom Hardy,617-555-3004,Carpentry
+P004,Mike Ross,617-555-3001,Concrete
+P004,Mike Ross,617-555-3001,Framing
+P004,Louis Litt,617-555-3005,Accounting
+P004,Louis Litt,617-555-3005,Procurement
+P005,Harvey Specter,617-555-3003,Planning
+P005,Harvey Specter,617-555-3003,Management
+P005,Rachel Zane,617-555-3002,Wiring
+P005,Rachel Zane,617-555-3002,Inspection
+P006,Tom Hardy,617-555-3004,Welding
+P006,Tom Hardy,617-555-3004,Concrete
+P006,Mike Ross,617-555-3001,Framing
+P006,Mike Ross,617-555-3001,Carpentry
+P007,Louis Litt,617-555-3005,Procurement
+P007,Louis Litt,617-555-3005,Accounting
+P007,Harvey Specter,617-555-3003,Management
+P007,Harvey Specter,617-555-3003,Planning

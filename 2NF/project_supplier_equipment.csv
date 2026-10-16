@@ -1,0 +1,17 @@
+ProjectID,SupplierName,EquipmentUsed
+P001,BuildPro Supplies,Crane
+P001,BuildPro Supplies,Bulldozer
+P001,SteelWorks Inc,Crane
+P002,Oceanic Materials,Excavator
+P002,Oceanic Materials,Crane
+P003,BuildPro Supplies,Mixer
+P003,BuildPro Supplies,Forklift
+P004,SteelWorks Inc,Crane
+P004,SteelWorks Inc,Lift
+P004,Global Glass Co,Lift
+P005,Pacific Materials,Bulldozer
+P005,Pacific Materials,Mixer
+P006,Southern Concrete,Mixer
+P007,SteelWorks Inc,Crane
+P007,SteelWorks Inc,Excavator
+P007,Oceanic Materials,Excavator

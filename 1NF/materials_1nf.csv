@@ -1,0 +1,17 @@
+ProjectID,SupplierName,MaterialSupplied,MaterialUnitCost
+P001,BuildPro Supplies,Concrete,120
+P001,BuildPro Supplies,Steel,300
+P001,SteelWorks Inc,Steel Beams,500
+P002,Oceanic Materials,Rebar,200
+P002,Oceanic Materials,Concrete,110
+P003,BuildPro Supplies,Bricks,2
+P003,BuildPro Supplies,Cement,15
+P004,SteelWorks Inc,Steel Beams,500
+P004,SteelWorks Inc,Glass Panels,250
+P004,Global Glass Co,Glass Panels,250
+P005,Pacific Materials,Concrete,130
+P005,Pacific Materials,Tiles,20
+P006,Southern Concrete,Concrete,115
+P007,SteelWorks Inc,Steel Beams,520
+P007,SteelWorks Inc,Concrete,140
+P007,Oceanic Materials,Rebar,210

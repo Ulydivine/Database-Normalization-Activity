@@ -1,0 +1,17 @@
+ProjectID,SupplierName,MaterialSupplied
+P001,BuildPro Supplies,Concrete
+P001,BuildPro Supplies,Steel
+P001,SteelWorks Inc,Steel Beams
+P002,Oceanic Materials,Rebar
+P002,Oceanic Materials,Concrete
+P003,BuildPro Supplies,Bricks
+P003,BuildPro Supplies,Cement
+P004,SteelWorks Inc,Steel Beams
+P004,SteelWorks Inc,Glass Panels
+P004,Global Glass Co,Glass Panels
+P005,Pacific Materials,Concrete
+P005,Pacific Materials,Tiles
+P006,Southern Concrete,Concrete
+P007,SteelWorks Inc,Steel Beams
+P007,SteelWorks Inc,Concrete
+P007,Oceanic Materials,Rebar

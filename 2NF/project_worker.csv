@@ -1,0 +1,16 @@
+ProjectID,WorkerPhone,SupplierName,SupplierCity
+P001,617-555-3001,BuildPro Supplies,Boston
+P001,617-555-3002,BuildPro Supplies,Boston
+P001,617-555-3003,SteelWorks Inc,Chicago
+P002,617-555-3001,Oceanic Materials,Miami
+P002,617-555-3004,Oceanic Materials,Miami
+P003,617-555-3002,BuildPro Supplies,Boston
+P003,617-555-3004,BuildPro Supplies,Boston
+P004,617-555-3001,SteelWorks Inc,Chicago
+P004,617-555-3005,Global Glass Co,Seattle
+P005,617-555-3003,Pacific Materials,San Diego
+P005,617-555-3002,Pacific Materials,San Diego
+P006,617-555-3004,Southern Concrete,Atlanta
+P006,617-555-3001,Southern Concrete,Atlanta
+P007,617-555-3005,SteelWorks Inc,Chicago
+P007,617-555-3003,Oceanic Materials,Miami

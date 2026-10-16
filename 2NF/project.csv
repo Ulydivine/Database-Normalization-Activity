@@ -1,0 +1,8 @@
+ProjectID,ProjectName,ProjectType,StartDate,EndDate,SiteAddress,SiteCity,SiteState,ClientName,ClientPhone,ClientEmail,ClientCity,SupervisorName,SupervisorPhone
+P001,Downtown Plaza,Commercial,2024-01-10,2024-08-20,123 Main St,Boston,MA,Metro Corp,617-555-1000,contact@metrocorp.com,Boston,John Carter,617-555-2000
+P002,Harbor Bridge,Infrastructure,2024-02-01,2025-01-30,78 Harbor Rd,Boston,MA,City Transit Auth,617-555-1100,info@cta.gov,Boston,Sarah Lee,617-555-2100
+P003,Riverside Apartments,Residential,2024-03-15,2024-11-15,45 River Dr,Providence,RI,Retail Ventures,401-555-1200,contact@retailventures.com,Providence,David Kim,401-555-2200
+P004,Green Tech Campus,Commercial,2024-04-01,2025-02-28,900 Innovation Way,New York,NY,FutureTech Ltd,212-555-1300,admin@futuretech.com,New York,John Carter,617-555-2000
+P005,Sunset Mall Expansion,Commercial,2024-05-10,2024-12-20,300 Sunset Blvd,Los Angeles,CA,Metro Corp,617-555-1000,contact@metrocorp.com,Boston,Sarah Lee,617-555-2100
+P006,Lakeside Villas,Residential,2024-06-01,2024-12-01,88 Lakeview Rd,Orlando,FL,Retail Ventures,401-555-1200,contact@retailventures.com,Providence,David Kim,401-555-2200
+P007,Airport Terminal Upgrade,Infrastructure,2024-07-15,2025-06-30,1 Airport Way,Chicago,IL,City Transit Auth,617-555-1100,info@cta.gov,Boston,Sarah Lee,617-555-2100
